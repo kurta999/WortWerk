@@ -11,7 +11,7 @@ Native Java with Android framework views, minSdk 26, targetSdk 36, compile SDK 3
 | `app/src/main/java/hu/wortwerk/MatchingRound.java` | Matching and scoring state |
 | `app/src/main/assets/vocabulary.txt` | Bilingual content |
 | `app/src/test/java/hu/wortwerk/LearningTest.java` | Seven data/behavior tests |
-| `.github/workflows/android.yml` | CI and draft preview delivery |
+| `.github/workflows/android.yml` | CI and automatic prerelease delivery |
 | `docs/screenshots/` | Actual emulator screenshots |
 
 ## Edit vocabulary
@@ -68,3 +68,7 @@ adb pull /sdcard/wortwerk.png docs/screenshots/01-categories.png
 ```
 
 Review images before committing, particularly for personal notifications. The screenshot gallery is embedded with repository-relative paths so it works after you push to any repository.
+
+## Prerelease automation tests
+
+Run `bash scripts/test-prerelease.sh` to check default-branch and version-tag releases, draft recovery, existing published releases, missing APKs and upload failure handling. These six tests mock GitHub CLI and make no network requests. They also run in CI before the Android build.

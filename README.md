@@ -79,9 +79,9 @@ The included [workflow](.github/workflows/android.yml) runs on pushes, pull requ
 3. Build and upload the debug APK.
 4. Upload test and lint reports, including on failed checks.
 
-Pushing a `v*` tag also prepares a **draft prerelease** with the tested APK and its SHA-256 checksum. Review it under GitHub Releases and publish it when ready. No signing secrets are required. Play Store deployment and production signing are not configured.
+Every successful push or manual build on the default branch automatically publishes a **GitHub prerelease** with the tested APK and its SHA-256 checksum. Each run gets a unique `preview-RUN_ID-ATTEMPT` tag pointing to the tested commit. Pushing a `v*` tag also publishes a prerelease under that version tag. Pull requests and other branches only run checks; they do not publish. No signing secrets are required. Play Store deployment and production signing are not configured.
 
-The workflow uses pinned Action commits, read-only permissions for checks and write permission only for the draft-release job. Dependabot checks Action updates monthly.
+The workflow uses pinned Action commits, read-only permissions for checks and write permission only for the prerelease job. Dependabot checks Action updates monthly.
 
 See [GitHub setup and releases](docs/GITHUB.md) for the first push and version-tag workflow.
 

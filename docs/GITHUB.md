@@ -21,24 +21,26 @@ No GitHub push or release has been performed by this project setup.
 
 ## Continuous integration
 
-The Android workflow runs tests, lint and a debug build on every push, pull request and manual run. Open the Actions tab to see results.
+The Android workflow runs prerelease-script checks, unit tests, lint and a debug build on every push, pull request and manual run. Open the Actions tab to see results.
 
 - `WortWerk-debug`: installable development APK, retained for 30 days.
 - `test-and-lint-reports`: HTML/XML reports, retained for 14 days.
-- If a check fails, the APK upload and draft-release job do not run.
+- If a check fails, the APK upload and prerelease job do not run.
 - No repository secrets are needed. The release job uses GitHub's built-in token.
 - If an organization restricts Actions or write permissions, allow these pinned actions and release-job access under its policy.
 
-## Draft preview releases
+## Automatic preview releases
 
-Update `versionName` and increment `versionCode` in `app/build.gradle` when preparing a new app version, commit the change, then tag that commit:
+After you push to the default branch, a successful workflow automatically publishes a prerelease containing `WortWerk-debug.apk` and `SHA256SUMS.txt`. Manual runs on the default branch also publish. No tag or manual publication is required. Tags look like `preview-123456789-1` and point to the exact tested commit. Re-running the workflow gets a new attempt tag. Pull requests and other branches do not publish.
+
+For a named version, update `versionName` and increment `versionCode` in `app/build.gradle` when preparing a new app version, commit the change, then tag that commit:
 
 ```sh
 git tag v1.0.0
 git push origin v1.0.0
 ```
 
-A passing tag build creates a draft prerelease with `WortWerk-debug.apk` and `SHA256SUMS.txt`. Review and publish it manually in Releases. Re-running the job updates an existing draft; it leaves an already published release unchanged.
+A passing version-tag build automatically publishes a prerelease with the same two files. Assets are uploaded to a draft first, and publication follows automatically only after upload succeeds. A rerun resumes an existing draft; it leaves an already published version-tag release unchanged. Prereleases are not marked as the latest stable release. If upload or publication fails, inspect the failed job and rerun it.
 
 The tag is a release label; it does not automatically rewrite the Android app's version. Keep the tag and `versionName` aligned.
 
@@ -55,3 +57,5 @@ Actions are pinned by commit and have version comments. Dependabot proposes Acti
 The workflow verifies the wrapper JAR and the Gradle download. When intentionally upgrading the wrapper, regenerate its checksum file and update `distributionSha256Sum` using the official Gradle checksum.
 
 References: [GitHub Actions artifacts](https://docs.github.com/en/actions/how-tos/store-and-share-data-from-a-workflow) and [Gradle wrapper verification](https://docs.gradle.org/current/userguide/gradle_wrapper.html#sec:verification).
+
+Publication uses the [GitHub CLI release commands](https://cli.github.com/manual/gh_release_create).
