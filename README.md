@@ -6,11 +6,11 @@ WortWerk is a small native Android vocabulary app with illustrated word cards, b
 
 ## Screenshots
 
-Real screenshots from the app running on an Android 16 emulator.
+Real screenshots from WortWerk 1.1.0 running on an Android 16 emulator.
 
 | Pick a category | Learn a word |
 | :---: | :---: |
-| <img src="docs/screenshots/01-categories.png" width="280" alt="Category list with software engineering, welding and learning progress"> | <img src="docs/screenshots/02-vocabulary.png" width="280" alt="German source code vocabulary card with Hungarian translation and sample sentence"> |
+| <img src="docs/screenshots/01-categories.png" width="280" alt="Category list with software engineering, welding and learning progress"> | <img src="docs/screenshots/02-vocabulary.png" width="280" alt="The 100th German vocabulary card with Hungarian translation, example sentence and word picker"> |
 | **Match Hungarian and German** | **See your result** |
 | <img src="docs/screenshots/03-matching.png" width="280" alt="Five Hungarian and German words in a matching exercise"> | <img src="docs/screenshots/04-results.png" width="280" alt="Completed matching exercise with accuracy and attempts"> |
 
@@ -18,18 +18,18 @@ Real screenshots from the app running on an Android 16 emulator.
 
 | Category | Hungarian | Words |
 | --- | --- | ---: |
-| Software engineering | Szoftverfejlesztés | 12 |
-| Welding | Hegesztés | 12 |
-| Electrical engineering | Elektrotechnika | 12 |
-| Cooking | Főzés | 12 |
-| Ordering food and drinks | Rendelés | 12 |
+| Software engineering | Szoftverfejlesztés | 100 |
+| Welding | Hegesztés | 100 |
+| Electrical engineering | Elektrotechnika | 100 |
+| Cooking | Főzés | 100 |
+| Ordering food and drinks | Rendelés | 100 |
 
-Each of the **60 entries** includes an emoji icon, a German word (with its article for nouns), a Hungarian meaning and an example sentence in both languages.
+Each of the **500 entries** includes an emoji icon, a German word (with its article for nouns), a Hungarian meaning and an example sentence in both languages.
 
 - Listen to German words and sentences through Android text-to-speech.
-- Mark words as learned and track progress in each category.
-- Practice five randomly chosen pairs within a category.
-- Get immediate feedback, accuracy and a saved personal best.
+- Mark words as learned, track progress and jump directly to any card using the word picker.
+- Practice all 100 words in each category in 20 five-pair rounds; completed words do not repeat until the category cycle is finished.
+- Get immediate feedback, accuracy, a saved personal best and saved practice coverage.
 - Continue the current card or exercise after screen rotation.
 - Use the vocabulary and exercises offline, without an account.
 
@@ -87,10 +87,11 @@ See [GitHub setup and releases](docs/GITHUB.md) for the first push and version-t
 
 ## Validation
 
-- Seven vocabulary and matching unit tests pass locally.
+- Twelve vocabulary, matching, complete-category coverage and saved-ID regression tests pass locally.
 - The SDK-only debug build and APK signature/alignment checks pass.
-- App installation and launch were verified on an Android 16 emulator.
-- Screenshots show the category screen, vocabulary, matching and a completed round.
+- Version 1.1.0 installation, launch and navigation to word 100 were verified on an Android 16 emulator.
+- An expanded-pool practice round and saved coverage after app restart were verified on the emulator.
+- Screenshots show the 500-word category screen, word 100, matching and a completed round.
 - The GitHub workflow has not run yet; it will run after you push.
 - Xiaomi 15T Pro hardware, HyperOS-specific behavior, speech and rotation have not been separately verified.
 

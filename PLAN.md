@@ -8,4 +8,5 @@ Native Android app for a Hungarian-speaking beginner, built with Java and Androi
 4. Save learned word IDs and best category scores locally. Preserve active exercise on rotation. No account or internet permission.
 5. Validate data and matching logic, build debug APK, and document device checks.
 
-Content: 60 entries across software engineering, welding, electrical engineering, cooking, and ordering food. Technical examples teach vocabulary, not procedures.
+Content: 500 entries (100 per category) across software engineering, welding, electrical engineering, cooking, and ordering food. Technical examples teach vocabulary, not procedures.
+Expansion: dynamic totals, direct word picker, saved category practice coverage, and 20 non-repeating five-pair rounds per 100-word cycle. Original entry indices remain unchanged. App version: 1.1.0.

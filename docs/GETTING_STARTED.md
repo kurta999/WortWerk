@@ -1,6 +1,6 @@
 # Gyors kezdés — WortWerk
 
-A WortWerk magyar nyelvű alkalmazás az alapvető német szókincs gyakorlásához.
+A WortWerk magyar nyelvű alkalmazás az alapvető német szókincs gyakorlásához. Öt kategóriában összesen 500 szót és kifejezést találsz, kategóriánként 100 bejegyzéssel.
 
 ## Telepítés
 
@@ -18,6 +18,8 @@ Android 8.0 vagy újabb rendszer szükséges. A Xiaomi 15T Pro készüléken val
 4. A hangszórós gombokkal hallgasd meg a kiejtést.
 5. A **Megtanultam** gombbal jelöld meg a szót. A jelölés visszavonható.
 
+A **Szó választása** gombbal közvetlenül bármelyik szókártyára ugorhatsz.
+
 A főnevek névelőjét — der, die, das — is tanuld meg a szóval együtt.
 
 ## Párosító gyakorlat
@@ -27,7 +29,7 @@ A főnevek névelőjét — der, die, das — is tanuld meg a szóval együtt.
 3. Hibás válasz után válassz újra egy magyar szót.
 4. Párosítsd mind az öt szót az eredmény megjelenítéséhez.
 
-A pontosság a megtalált párok és a próbálkozások arányából számolódik. A legjobb eredményt az alkalmazás kategóriánként menti. Az új kör véletlenszerű szavakat választ, ezért szavak ismétlődhetnek.
+A pontosság a megtalált párok és a próbálkozások arányából számolódik. A legjobb eredményt az alkalmazás kategóriánként menti. A **Következő 5 szó** gomb a még nem gyakorolt szavakból választ. Húsz teljes körben mind a 100 szót átveszed. A befejezett körök szavai nem ismétlődnek, amíg el nem végzed a teljes kategóriát. Ezután új sorozatot indíthatsz. A befejezett körök haladása újraindítás után is megmarad; egy félbehagyott kör szavai később újra megjelenhetnek.
 
 ## Hang és mentés
 

@@ -11,6 +11,94 @@ swe|💻|Szoftverfejlesztés|Kód, eszközök és csapatmunka
 🧪|testen|tesztelni|Wir testen die Anwendung.|Teszteljük az alkalmazást.
 💾|speichern|menteni|Bitte speichern Sie die Datei.|Kérem, mentse a fájlt.
 🔌|die Schnittstelle|interfész|Wir brauchen eine neue Schnittstelle.|Új interfészre van szükségünk.
+📂|der Ordner|mappa|Der Ordner enthält drei Dateien.|A mappa három fájlt tartalmaz.
+📦|das Programm|program|Das Programm startet sofort.|A program azonnal elindul.
+📱|die Anwendung|alkalmazás|Die Anwendung läuft auf meinem Telefon.|Az alkalmazás a telefonomon fut.
+💿|die Software|szoftver|Die Software ist aktuell.|A szoftver naprakész.
+🧩|die Hardware|hardver|Wir prüfen die Hardware.|Ellenőrizzük a hardvert.
+🖥️|das Betriebssystem|operációs rendszer|Das Betriebssystem braucht ein Update.|Az operációs rendszernek frissítésre van szüksége.
+🌐|das Netzwerk|hálózat|Das Netzwerk ist langsam.|A hálózat lassú.
+🗄️|der Server|szerver|Der Server antwortet nicht.|A szerver nem válaszol.
+💻|der Client|kliens|Der Client sendet eine Anfrage.|A kliens kérést küld.
+🌍|der Browser|böngésző|Ich öffne den Browser.|Megnyitom a böngészőt.
+🔗|der Link|hivatkozás|Der Link führt zur Dokumentation.|A hivatkozás a dokumentációhoz vezet.
+📄|die Webseite|weboldal|Die Webseite lädt schnell.|A weboldal gyorsan betöltődik.
+👤|der Benutzer|felhasználó|Der Benutzer meldet sich an.|A felhasználó bejelentkezik.
+🔑|das Passwort|jelszó|Mein Passwort ist lang.|A jelszavam hosszú.
+🪪|das Benutzerkonto|felhasználói fiók|Das Benutzerkonto ist aktiv.|A felhasználói fiók aktív.
+🔐|die Anmeldung|bejelentkezés|Die Anmeldung war erfolgreich.|A bejelentkezés sikeres volt.
+🚪|die Abmeldung|kijelentkezés|Die Abmeldung dauert kurz.|A kijelentkezés rövid ideig tart.
+🛡️|die Berechtigung|jogosultság|Mir fehlt die Berechtigung.|Hiányzik a jogosultságom.
+🔒|die Sicherheit|biztonság|Sicherheit ist uns wichtig.|Fontos számunkra a biztonság.
+💽|die Sicherungskopie|biztonsági másolat|Die Sicherungskopie ist vollständig.|A biztonsági másolat teljes.
+🔄|die Aktualisierung|frissítés|Die Aktualisierung ist fertig.|A frissítés elkészült.
+📥|die Installation|telepítés|Die Installation dauert eine Minute.|A telepítés egy percig tart.
+⚙️|die Einstellung|beállítás|Diese Einstellung ist optional.|Ez a beállítás nem kötelező.
+📝|die Dokumentation|dokumentáció|Ich ergänze die Dokumentation.|Kiegészítem a dokumentációt.
+💬|der Kommentar|megjegyzés a kódban|Der Kommentar erklärt die Funktion.|A megjegyzés elmagyarázza a függvényt.
+🔢|die Variable|változó|Die Variable enthält eine Zahl.|A változó egy számot tartalmaz.
+📌|die Konstante|konstans|Diese Konstante ändert sich nicht.|Ez a konstans nem változik.
+🔣|der Datentyp|adattípus|Der Datentyp ist eine Ganzzahl.|Az adattípus egész szám.
+🔢|die Ganzzahl|egész szám|Die Ganzzahl ist positiv.|Az egész szám pozitív.
+🔤|die Zeichenkette|karakterlánc|Die Zeichenkette ist leer.|A karakterlánc üres.
+📋|die Liste|lista|Die Liste enthält zehn Namen.|A lista tíz nevet tartalmaz.
+🧱|das Array|tömb|Das Array hat fünf Elemente.|A tömbnek öt eleme van.
+🏷️|die Klasse|osztály|Die Klasse hat zwei Methoden.|Az osztálynak két metódusa van.
+📦|das Objekt|objektum|Wir erzeugen ein neues Objekt.|Létrehozunk egy új objektumot.
+🛠️|die Methode|metódus|Diese Methode gibt einen Wert zurück.|Ez a metódus visszaad egy értéket.
+🎚️|der Parameter|paraméter|Der Parameter ist optional.|A paraméter nem kötelező.
+↩️|der Rückgabewert|visszatérési érték|Der Rückgabewert ist null.|A visszatérési érték nulla.
+🔁|die Schleife|ciklus|Die Schleife läuft fünfmal.|A ciklus ötször fut le.
+❓|die Bedingung|feltétel|Die Bedingung ist erfüllt.|A feltétel teljesül.
+⚠️|die Ausnahme|kivétel|Die Methode wirft eine Ausnahme.|A metódus kivételt dob.
+📚|die Bibliothek|programkönyvtár|Wir verwenden eine externe Bibliothek.|Külső programkönyvtárat használunk.
+🧩|das Modul|modul|Das Modul ist unabhängig.|A modul független.
+📦|das Paket|csomag|Das Paket enthält mehrere Klassen.|A csomag több osztályt tartalmaz.
+🔗|die Abhängigkeit|függőség|Diese Abhängigkeit fehlt.|Ez a függőség hiányzik.
+🌿|der Zweig|fejlesztési ág|Ich erstelle einen neuen Zweig.|Létrehozok egy új fejlesztési ágat.
+🏷️|die Version|verzió|Diese Version ist stabil.|Ez a verzió stabil.
+🗃️|das Repository|kódtár|Das Repository ist öffentlich.|A kódtár nyilvános.
+🧾|der Commit|commit / rögzített módosítás|Dieser Commit behebt den Fehler.|Ez a commit kijavítja a hibát.
+🔀|der Merge-Konflikt|összefésülési konfliktus|Wir lösen den Merge-Konflikt.|Megoldjuk az összefésülési konfliktust.
+👀|die Codeprüfung|kódellenőrzés|Die Codeprüfung ist abgeschlossen.|A kódellenőrzés befejeződött.
+🧪|der Testfall|teszteset|Dieser Testfall schlägt fehl.|Ez a teszteset sikertelen.
+✅|der Komponententest|egységteszt|Der Komponententest prüft eine Methode.|Az egységteszt egy metódust ellenőriz.
+🔍|die Fehlersuche|hibakeresés|Die Fehlersuche dauert lange.|A hibakeresés sokáig tart.
+📜|die Protokolldatei|naplófájl|Ich lese die Protokolldatei.|Olvasom a naplófájlt.
+📩|die Anfrage|kérés|Die Anfrage enthält eine Kennung.|A kérés egy azonosítót tartalmaz.
+📨|die Antwort|válasz|Die Antwort enthält die Daten.|A válasz tartalmazza az adatokat.
+🏷️|die Kennung|azonosító|Die Kennung ist eindeutig.|Az azonosító egyedi.
+📊|die Tabelle|táblázat / adatbázistábla|Die Tabelle hat drei Spalten.|A táblának három oszlopa van.
+↔️|die Zeile|sor|Die erste Zeile ist leer.|Az első sor üres.
+↕️|die Spalte|oszlop|Diese Spalte enthält Namen.|Ez az oszlop neveket tartalmaz.
+🔎|die Abfrage|lekérdezés|Die Abfrage liefert zehn Ergebnisse.|A lekérdezés tíz eredményt ad.
+🧠|der Speicher|memória|Der Speicher ist fast voll.|A memória majdnem megtelt.
+⏱️|die Laufzeit|futási idő|Die Laufzeit ist kurz.|A futási idő rövid.
+🚀|die Leistung|teljesítmény|Die Leistung hat sich verbessert.|A teljesítmény javult.
+📶|die Verbindung|kapcsolat|Die Verbindung wurde getrennt.|A kapcsolat megszakadt.
+🖼️|die Benutzeroberfläche|felhasználói felület|Die Benutzeroberfläche ist einfach.|A felhasználói felület egyszerű.
+🔘|die Schaltfläche|nyomógomb a felületen|Die Schaltfläche ist deaktiviert.|A nyomógomb le van tiltva.
+📥|die Eingabe|bemenet / bevitel|Die Eingabe ist ungültig.|A bevitel érvénytelen.
+📤|die Ausgabe|kimenet|Die Ausgabe ist korrekt.|A kimenet helyes.
+📋|die Anforderung|követelmény|Diese Anforderung ist neu.|Ez a követelmény új.
+🎯|die Aufgabe|feladat|Die Aufgabe ist erledigt.|A feladat elkészült.
+👥|das Team|csapat|Unser Team arbeitet zusammen.|A csapatunk együtt dolgozik.
+🗓️|die Besprechung|megbeszélés|Die Besprechung beginnt um zehn.|A megbeszélés tízkor kezdődik.
+⏳|die Frist|határidő|Die Frist endet morgen.|A határidő holnap jár le.
+📁|das Projekt|projekt|Das Projekt hat drei Module.|A projektnek három modulja van.
+✏️|entwickeln|fejleszteni|Wir entwickeln eine Anwendung.|Egy alkalmazást fejlesztünk.
+👨‍💻|programmieren|programozni|Ich programmiere in Java.|Javában programozok.
+📂|öffnen|megnyitni|Bitte öffnen Sie den Ordner.|Kérem, nyissa meg a mappát.
+❌|schließen|bezárni|Ich schließe das Fenster.|Bezárom az ablakot.
+📋|kopieren|másolni|Ich kopiere den Text.|Másolom a szöveget.
+📌|einfügen|beilleszteni|Hier können Sie den Code einfügen.|Ide beillesztheti a kódot.
+🗑️|löschen|törölni|Ich möchte die alte Datei löschen.|Törölni szeretném a régi fájlt.
+🔎|suchen|keresni|Wir suchen eine Lösung.|Megoldást keresünk.
+🔃|sortieren|rendezni|Wir sortieren die Liste.|Rendezzük a listát.
+📥|herunterladen|letölteni|Ich lade die Datei herunter.|Letöltöm a fájlt.
+📤|hochladen|feltölteni|Ich lade das Bild hoch.|Feltöltöm a képet.
+🐛|beheben|kijavítani|Wir beheben den Fehler heute.|Ma kijavítjuk a hibát.
+🚀|bereitstellen|üzembe helyezni / elérhetővé tenni|Wir stellen die neue Version bereit.|Elérhetővé tesszük az új verziót.
 welding|🥽|Hegesztés|Műhely, anyagok és felszerelés
 🔥|schweißen|hegeszteni|Ich lerne schweißen.|Hegeszteni tanulok.
 👨‍🏭|der Schweißer|hegesztő (szakember)|Der Schweißer arbeitet in der Werkstatt.|A hegesztő a műhelyben dolgozik.
@@ -24,6 +112,94 @@ welding|🥽|Hegesztés|Műhely, anyagok és felszerelés
 ⚡|die Elektrode|elektróda|Die Elektrode ist kurz.|Az elektróda rövid.
 🔧|das Werkstück|munkadarab|Das Werkstück liegt auf dem Tisch.|A munkadarab az asztalon van.
 🏭|die Werkstatt|műhely|Die Werkstatt ist groß.|A műhely nagy.
+🥫|das Aluminium|alumínium|Das Gehäuse ist aus Aluminium.|A burkolat alumíniumból van.
+🟠|das Kupfer|réz|Kupfer hat eine rötliche Farbe.|A réz vöröses színű.
+✨|der Edelstahl|rozsdamentes acél|Dieser Tisch ist aus Edelstahl.|Ez az asztal rozsdamentes acélból van.
+🔩|das Eisen|vas|Dieses Teil besteht aus Eisen.|Ez az alkatrész vasból készült.
+📃|das Blech|fémlemez|Das Blech ist zwei Millimeter dick.|A fémlemez két milliméter vastag.
+🧱|das Rohr|cső|Das Rohr ist einen Meter lang.|A cső egy méter hosszú.
+📐|das Profil|profil / szelvény|Das Profil hat eine U-Form.|A szelvény U alakú.
+⬜|die Platte|lap / tábla|Die Platte liegt auf der Werkbank.|A lap a munkapadon fekszik.
+➖|die Stange|rúd|Die Stange ist gerade.|A rúd egyenes.
+🖼️|der Rahmen|keret|Der Rahmen ist noch nicht fertig.|A keret még nincs kész.
+🧲|die Halterung|tartóelem|Die Halterung ist stabil.|A tartóelem stabil.
+🔩|die Schraube|csavar|Die Schraube ist zu kurz.|A csavar túl rövid.
+🔩|die Mutter|csavaranya|Die Mutter passt zur Schraube.|A csavaranya illik a csavarhoz.
+⭕|die Unterlegscheibe|alátét|Die Unterlegscheibe liegt neben der Mutter.|Az alátét a csavaranya mellett van.
+📍|der Bolzen|csapszeg|Der Bolzen ist aus Stahl.|A csapszeg acélból van.
+📌|der Niet|szegecs|Der Niet verbindet zwei Bleche.|A szegecs két lemezt köt össze.
+🗜️|die Klemme|szorító|Die Klemme hält das Teil fest.|A szorító rögzíti az alkatrészt.
+🗜️|der Schraubstock|satu|Der Schraubstock ist an der Werkbank.|A satu a munkapadon van.
+🛠️|die Zange|fogó|Die Zange hat einen roten Griff.|A fogónak piros nyele van.
+🔨|der Hammer|kalapács|Der Hammer liegt im Werkzeugkasten.|A kalapács a szerszámosládában van.
+🪚|die Feile|reszelő|Diese Feile ist flach.|Ez a reszelő lapos.
+🪚|die Säge|fűrész|Die Säge hat feine Zähne.|A fűrésznek finom fogai vannak.
+🌀|der Bohrer|fúrószár|Der Bohrer hat sechs Millimeter Durchmesser.|A fúrószár átmérője hat milliméter.
+🛠️|die Bohrmaschine|fúrógép|Die Bohrmaschine ist ausgeschaltet.|A fúrógép ki van kapcsolva.
+⚙️|der Winkelschleifer|sarokcsiszoló|Der Winkelschleifer liegt im Schrank.|A sarokcsiszoló a szekrényben van.
+💿|die Schleifscheibe|csiszolókorong|Die Schleifscheibe ist neu.|A csiszolókorong új.
+🪥|die Drahtbürste|drótkefe|Die Drahtbürste hat einen Holzgriff.|A drótkefének fanyele van.
+📏|das Maßband|mérőszalag|Das Maßband ist drei Meter lang.|A mérőszalag három méter hosszú.
+📏|das Lineal|vonalzó|Das Lineal liegt auf dem Tisch.|A vonalzó az asztalon van.
+📐|der Winkel|szög|Der Winkel beträgt neunzig Grad.|A szög kilencven fok.
+⚖️|die Wasserwaage|vízmérték|Die Wasserwaage ist gelb.|A vízmérték sárga.
+📏|der Messschieber|tolómérő|Der Messschieber zeigt zwölf Millimeter an.|A tolómérő tizenkét millimétert mutat.
+📋|die Schablone|sablon|Die Schablone ist aus Kunststoff.|A sablon műanyagból van.
+📝|die Zeichnung|műszaki rajz|Die Zeichnung zeigt alle Maße.|A műszaki rajz minden méretet megmutat.
+📐|das Maß|méret|Dieses Maß fehlt in der Zeichnung.|Ez a méret hiányzik a rajzról.
+📏|die Dicke|vastagság|Die Dicke beträgt drei Millimeter.|A vastagság három milliméter.
+↔️|die Länge|hosszúság|Die Länge steht auf der Zeichnung.|A hosszúság a rajzon szerepel.
+↔️|die Breite|szélesség|Die Breite beträgt zehn Zentimeter.|A szélesség tíz centiméter.
+⭕|der Durchmesser|átmérő|Der Durchmesser des Rohrs ist klein.|A cső átmérője kicsi.
+✨|die Oberfläche|felület|Die Oberfläche ist glatt.|A felület sima.
+📐|die Kante|él|Die Kante ist scharf.|Az él éles.
+🔺|die Ecke|sarok|Die Ecke ist abgerundet.|A sarok le van kerekítve.
+🕳️|das Loch|furat / lyuk|Das Loch ist in der Mitte.|A furat középen van.
+⚡|der Riss|repedés|Im Blech ist ein Riss.|Repedés van a lemezben.
+🟤|der Rost|rozsda|An der Oberfläche ist Rost.|A felületen rozsda van.
+🧹|der Schmutz|szennyeződés|Der Schmutz ist deutlich sichtbar.|A szennyeződés jól látható.
+🛢️|das Fett|zsír|Auf dem Teil ist Fett.|Az alkatrészen zsír van.
+✨|der Funke|szikra|Ein Funke ist sichtbar.|Egy szikra látható.
+🌫️|der Rauch|füst|Der Rauch steigt nach oben.|A füst felfelé száll.
+💨|das Gas|gáz|Das Gas ist in der Flasche.|A gáz a palackban van.
+🧯|die Gasflasche|gázpalack|Die Gasflasche ist gekennzeichnet.|A gázpalack meg van jelölve.
+🛡️|das Schutzgas|védőgáz|Argon ist ein Schutzgas.|Az argon védőgáz.
+⚡|der Lichtbogen|ívfény / villamos ív|Der Lichtbogen ist sehr hell.|A villamos ív nagyon fényes.
+🔥|der Brenner|hegesztőpisztoly / égő|Der Brenner liegt in der Halterung.|A hegesztőpisztoly a tartóban van.
+🔘|die Düse|fúvóka|Die Düse ist ein Ersatzteil.|A fúvóka egy pótalkatrész.
+➰|der Schlauch|tömlő|Der Schlauch ist flexibel.|A tömlő hajlékony.
+🗜️|die Masseklemme|testcsipesz|Die Masseklemme hat ein schwarzes Kabel.|A testcsipesznek fekete kábele van.
+➕|der Schweißzusatz|hegesztő hozaganyag|Der Schweißzusatz steht auf der Materialliste.|A hegesztő hozaganyag szerepel az anyaglistán.
+🔥|das Schweißbad|ömledékfürdő|Das Schweißbad ist flüssig.|Az ömledékfürdő folyékony.
+↗️|die Schweißposition|hegesztési helyzet|Die Schweißposition ist in der Anleitung angegeben.|A hegesztési helyzet szerepel az útmutatóban.
+📐|die Kehlnaht|sarokvarrat|Die Zeichnung zeigt eine Kehlnaht.|A rajz egy sarokvarratot mutat.
+➖|die Stumpfnaht|tompavarrat|Hier ist eine Stumpfnaht eingezeichnet.|Ide egy tompavarrat van berajzolva.
+📍|der Heftpunkt|fűzőpont|Der Heftpunkt ist klein.|A fűzőpont kicsi.
+💥|der Schweißspritzer|hegesztési fröcskölés|Auf dem Blech sind Schweißspritzer.|A lemezen hegesztési fröcskölés nyomai vannak.
+🪨|die Schlacke|salak|Die Schlacke liegt auf der Naht.|A salak a varraton van.
+🫧|die Pore|pórus|Die Prüfung zeigt eine Pore.|A vizsgálat egy pórust mutat ki.
+🔍|die Nahtprüfung|varratvizsgálat|Die Nahtprüfung ist abgeschlossen.|A varratvizsgálat befejeződött.
+🥽|die Schutzbrille|védőszemüveg|Meine Schutzbrille liegt im Schrank.|A védőszemüvegem a szekrényben van.
+🎧|der Gehörschutz|hallásvédő|Der Gehörschutz ist neu.|A hallásvédő új.
+🦺|die Schürze|kötény|Die Schürze ist aus Leder.|A kötény bőrből van.
+🥾|der Sicherheitsschuh|munkavédelmi cipő|Der Sicherheitsschuh hat eine feste Sohle.|A munkavédelmi cipőnek kemény talpa van.
+🌬️|die Lüftung|szellőzés|Die Lüftung läuft.|A szellőzés működik.
+💨|die Absaugung|elszívás|Die Absaugung ist über dem Arbeitsplatz.|Az elszívás a munkahely fölött van.
+🧯|der Feuerlöscher|tűzoltó készülék|Der Feuerlöscher steht neben der Tür.|A tűzoltó készülék az ajtó mellett áll.
+🛠️|der Arbeitsplatz|munkahely / munkaterület|Mein Arbeitsplatz ist aufgeräumt.|A munkaterületem rendezett.
+🔧|das Werkzeug|szerszám|Das Werkzeug gehört der Werkstatt.|A szerszám a műhely tulajdona.
+🧩|das Ersatzteil|pótalkatrész|Das Ersatzteil kommt morgen.|A pótalkatrész holnap érkezik.
+✅|die Qualität|minőség|Die Qualität ist gut.|A minőség jó.
+🔎|die Prüfung|ellenőrzés / vizsgálat|Die Prüfung dauert zehn Minuten.|A vizsgálat tíz percig tart.
+🌡️|heiß|forró|Das Werkstück ist noch heiß.|A munkadarab még forró.
+❄️|kalt|hideg|Die Platte ist kalt.|A lap hideg.
+✨|sauber|tiszta|Die Oberfläche ist sauber.|A felület tiszta.
+🧽|reinigen|tisztítani|Wir reinigen die Werkbank.|Megtisztítjuk a munkapadot.
+📏|messen|mérni|Ich messe die Länge.|Megmérem a hosszúságot.
+🔍|prüfen|ellenőrizni|Die Fachkraft prüft die Naht.|A szakember ellenőrzi a varratot.
+🗜️|befestigen|rögzíteni|Die Halterung befestigt das Teil.|A tartóelem rögzíti az alkatrészt.
+🔗|verbinden|összekötni|Diese Naht verbindet zwei Teile.|Ez a varrat két alkatrészt köt össze.
+❄️|abkühlen|lehűlni|Das Werkstück kühlt langsam ab.|A munkadarab lassan lehűl.
 electro|⚡|Elektrotechnika|Áramkörök és alkatrészek
 ⚡|der Strom|áram|Hier fließt kein Strom.|Itt nem folyik áram.
 📈|die Spannung|feszültség|Die Spannung beträgt zwölf Volt.|A feszültség tizenkét volt.
@@ -37,6 +213,94 @@ electro|⚡|Elektrotechnika|Áramkörök és alkatrészek
 🔄|der Stromkreis|áramkör|Der Stromkreis ist unterbrochen.|Az áramkör megszakadt.
 📟|das Multimeter|multiméter|Das Multimeter liegt im Schrank.|A multiméter a szekrényben van.
 💡|die Leuchtdiode|fénykibocsátó dióda (LED)|Die Leuchtdiode leuchtet grün.|A LED zölden világít.
+〰️|der Wechselstrom|váltakozó áram|Wechselstrom ändert seine Richtung.|A váltakozó áram változtatja az irányát.
+➡️|der Gleichstrom|egyenáram|Gleichstrom fließt in einer Richtung.|Az egyenáram egy irányban folyik.
+〰️|die Wechselspannung|váltakozó feszültség|Das Messgerät zeigt eine Wechselspannung.|A mérőműszer váltakozó feszültséget jelez.
+➡️|die Gleichspannung|egyenfeszültség|Das Netzteil liefert Gleichspannung.|A tápegység egyenfeszültséget ad.
+📊|die Stromstärke|áramerősség|Die Stromstärke beträgt zwei Ampere.|Az áramerősség két amper.
+📈|die Frequenz|frekvencia|Die Frequenz beträgt fünfzig Hertz.|A frekvencia ötven hertz.
+⚡|die Leistung|teljesítmény|Die Leistung steht auf dem Typenschild.|A teljesítmény az adattáblán szerepel.
+🔋|die Energie|energia|Die Batterie speichert Energie.|Az akkumulátor energiát tárol.
+➕|die Ladung|elektromos töltés|Die Ladung kann positiv oder negativ sein.|Az elektromos töltés lehet pozitív vagy negatív.
+🥤|die Kapazität|kapacitás|Die Kapazität steht auf dem Kondensator.|A kapacitás a kondenzátoron szerepel.
+🌀|die Induktivität|induktivitás|Die Induktivität wird in Henry angegeben.|Az induktivitást henryben adják meg.
+Ω|das Ohm|ohm|Ohm ist die Einheit des Widerstands.|Az ohm az ellenállás mértékegysége.
+V|das Volt|volt|Volt ist die Einheit der Spannung.|A volt a feszültség mértékegysége.
+A|das Ampere|amper|Ampere ist die Einheit der Stromstärke.|Az amper az áramerősség mértékegysége.
+W|das Watt|watt|Watt ist die Einheit der Leistung.|A watt a teljesítmény mértékegysége.
+📈|das Hertz|hertz|Hertz ist die Einheit der Frequenz.|A hertz a frekvencia mértékegysége.
+🔗|der Leiter|elektromos vezető|Kupfer ist ein guter Leiter.|A réz jó elektromos vezető.
+🛡️|der Isolator|szigetelőanyag|Glas ist ein Isolator.|Az üveg szigetelőanyag.
+🧥|die Isolierung|szigetelés|Die Isolierung ist blau.|A szigetelés kék.
+➖|die Ader|vezetékér|Das Kabel hat drei Adern.|A kábelnek három ere van.
+🧵|die Litze|sodrott vezeték|Die Litze ist flexibel.|A sodrott vezeték hajlékony.
+🗜️|die Klemme|csatlakozókapocs|Die Klemme ist nummeriert.|A csatlakozókapocs számozott.
+🔢|die Klemmenleiste|sorkapocs|Die Klemmenleiste hat zehn Anschlüsse.|A sorkapocsnak tíz csatlakozása van.
+🟩|die Leiterplatte|nyomtatott áramköri lap|Die Leiterplatte ist grün.|A nyomtatott áramköri lap zöld.
+🛤️|die Leiterbahn|vezetősáv|Die Leiterbahn ist schmal.|A vezetősáv keskeny.
+📍|die Lötstelle|forrasztási pont|Die Lötstelle ist gut sichtbar.|A forrasztási pont jól látható.
+🔥|der Lötkolben|forrasztópáka|Der Lötkolben liegt in seiner Halterung.|A forrasztópáka a tartójában van.
+🧵|das Lötzinn|forrasztóón|Das Lötzinn ist auf einer Rolle.|A forrasztóón tekercsen van.
+🔋|der Kondensator|kondenzátor|Der Kondensator ist ein Bauteil.|A kondenzátor egy alkatrész.
+🌀|die Spule|tekercs|Die Spule besteht aus Draht.|A tekercs huzalból áll.
+▶️|die Diode|dióda|Die Diode hat zwei Anschlüsse.|A diódának két kivezetése van.
+🔺|der Transistor|tranzisztor|Dieser Transistor hat drei Anschlüsse.|Ennek a tranzisztornak három kivezetése van.
+🔀|das Relais|relé|Das Relais schaltet einen Kontakt.|A relé egy érintkezőt kapcsol.
+🧲|der Transformator|transzformátor|Der Transformator hat zwei Spulen.|A transzformátornak két tekercse van.
+🔌|das Netzteil|tápegység|Das Netzteil ist ausgeschaltet.|A tápegység ki van kapcsolva.
+⚙️|der Motor|motor|Der Motor läuft leise.|A motor halkan jár.
+⚡|der Generator|generátor|Der Generator erzeugt elektrische Energie.|A generátor elektromos energiát termel.
+🌡️|der Sensor|érzékelő|Der Sensor misst die Temperatur.|Az érzékelő a hőmérsékletet méri.
+🔘|der Taster|nyomógomb|Der Taster ist rot.|A nyomógomb piros.
+🎚️|das Potentiometer|potenciométer|Das Potentiometer hat einen Drehknopf.|A potenciométernek forgatógombja van.
+📟|das Display|kijelző|Das Display zeigt den Messwert.|A kijelző a mért értéket mutatja.
+💡|die Lampe|lámpa|Die Lampe leuchtet.|A lámpa világít.
+🛡️|der Leitungsschutzschalter|kismegszakító|Der Leitungsschutzschalter ist beschriftet.|A kismegszakító feliratozott.
+🛡️|der Fehlerstromschutzschalter|áram-védőkapcsoló|Der Fehlerstromschutzschalter hat eine Prüftaste.|Az áram-védőkapcsolónak tesztgombja van.
+🟢|der Schutzleiter|védővezető|Der Schutzleiter ist grün-gelb gekennzeichnet.|A védővezető zöld-sárga jelölésű.
+🔵|der Neutralleiter|nullavezető|Der Neutralleiter ist im Plan mit N bezeichnet.|A nullavezetőt a rajzon N jelöli.
+🔴|der Außenleiter|fázisvezető|Der Außenleiter ist im Plan mit L bezeichnet.|A fázisvezetőt a rajzon L jelöli.
+🌍|die Erdung|földelés|Die Erdung ist im Schaltplan dargestellt.|A földelés szerepel a kapcsolási rajzon.
+💥|der Kurzschluss|rövidzárlat|Ein Kurzschluss ist ein Fehler.|A rövidzárlat egy hiba.
+📈|die Überlast|túlterhelés|Die Anzeige meldet eine Überlast.|A kijelző túlterhelést jelez.
+✂️|die Unterbrechung|szakadás|Die Leitung hat eine Unterbrechung.|A vezetékben szakadás van.
+🔘|der Kontakt|érintkező|Der Kontakt ist geschlossen.|Az érintkező zárt.
+🔌|der Anschluss|csatlakozás / kivezetés|Dieser Anschluss ist beschriftet.|Ez a csatlakozás feliratozott.
+📝|der Schaltplan|kapcsolási rajz|Der Schaltplan liegt auf dem Tisch.|A kapcsolási rajz az asztalon van.
+🔣|das Symbol|szimbólum|Dieses Symbol steht für einen Widerstand.|Ez a szimbólum egy ellenállást jelöl.
+📟|das Messgerät|mérőműszer|Das Messgerät ist digital.|A mérőműszer digitális.
+📈|das Oszilloskop|oszcilloszkóp|Das Oszilloskop zeigt ein Signal.|Az oszcilloszkóp egy jelet mutat.
+📍|die Messspitze|mérőcsúcs|Die Messspitze ist rot.|A mérőcsúcs piros.
+🔢|der Messwert|mért érték|Der Messwert ist stabil.|A mért érték stabil.
+↔️|der Messbereich|méréshatár / mérési tartomány|Der Messbereich steht in der Anleitung.|A mérési tartomány az útmutatóban szerepel.
+±|die Toleranz|tűrés|Die Toleranz beträgt ein Prozent.|A tűrés egy százalék.
+➕|die Polarität|polaritás|Die Polarität ist gekennzeichnet.|A polaritás jelölve van.
+➕|der Pluspol|pozitív pólus|Der Pluspol hat ein Pluszeichen.|A pozitív póluson pluszjel van.
+➖|der Minuspol|negatív pólus|Der Minuspol hat ein Minuszeichen.|A negatív póluson mínuszjel van.
+🔗|die Reihenschaltung|soros kapcsolás|Die Zeichnung zeigt eine Reihenschaltung.|A rajz soros kapcsolást mutat.
+🛤️|die Parallelschaltung|párhuzamos kapcsolás|Die Lampen sind in einer Parallelschaltung angeordnet.|A lámpák párhuzamos kapcsolásban vannak.
+📊|der Wirkungsgrad|hatásfok|Der Wirkungsgrad ist hoch.|A hatásfok magas.
+🔥|die Wärme|hő|Der Widerstand gibt Wärme ab.|Az ellenállás hőt ad le.
+❄️|der Kühlkörper|hűtőborda|Der Kühlkörper ist aus Aluminium.|A hűtőborda alumíniumból van.
+📦|das Gehäuse|burkolat|Das Gehäuse ist geschlossen.|A burkolat zárt.
+🗄️|der Schaltschrank|kapcsolószekrény|Der Schaltschrank ist verschlossen.|A kapcsolószekrény be van zárva.
+➰|der Kabelbinder|kábelkötegelő|Der Kabelbinder ist aus Kunststoff.|A kábelkötegelő műanyagból van.
+🛠️|die Abisolierzange|blankolófogó|Die Abisolierzange liegt im Werkzeugkasten.|A blankolófogó a szerszámosládában van.
+✂️|der Seitenschneider|oldalcsípő fogó|Der Seitenschneider hat blaue Griffe.|Az oldalcsípő fogónak kék nyelei vannak.
+🪛|der Schraubendreher|csavarhúzó|Der Schraubendreher liegt neben der Zange.|A csavarhúzó a fogó mellett van.
+📊|die Prüfspannung|vizsgálófeszültség|Die Prüfspannung steht im Prüfbericht.|A vizsgálófeszültség a vizsgálati jelentésben szerepel.
+🏠|die Netzspannung|hálózati feszültség|Das Gerät ist für diese Netzspannung ausgelegt.|A készüléket erre a hálózati feszültségre tervezték.
+🏷️|die Nennspannung|névleges feszültség|Die Nennspannung steht auf dem Gerät.|A névleges feszültség a készüléken szerepel.
+🛡️|die Schutzart|védettségi fokozat|Die Schutzart ist auf dem Gehäuse angegeben.|A védettségi fokozat a burkolaton szerepel.
+⭕|der Leiterquerschnitt|vezető-keresztmetszet|Der Leiterquerschnitt ist im Plan angegeben.|A vezető-keresztmetszet a rajzon szerepel.
+🔛|einschalten|bekapcsolni|Ich schalte die Schreibtischlampe ein.|Bekapcsolom az asztali lámpát.
+📴|ausschalten|kikapcsolni|Ich schalte das Radio aus.|Kikapcsolom a rádiót.
+⚡|leiten|vezetni az áramot|Metalle leiten elektrischen Strom.|A fémek vezetik az elektromos áramot.
+🛡️|isolieren|szigetelni|Kunststoff kann elektrisch isolieren.|A műanyag képes elektromosan szigetelni.
+🔥|löten|forrasztani|Ich lerne im Kurs löten.|A tanfolyamon forrasztani tanulok.
+📏|messen|mérni|Der Sensor misst die Temperatur.|Az érzékelő méri a hőmérsékletet.
+🔋|laden|tölteni|Das Ladegerät lädt die Batterie.|A töltő tölti az akkumulátort.
+🪫|entladen|kisütni / lemeríteni|Die Lampe entlädt die Batterie langsam.|A lámpa lassan lemeríti az akkumulátort.
 cooking|🍳|Főzés|Alapanyagok és konyhai igék
 🍳|kochen|főzni|Ich koche heute eine Suppe.|Ma levest főzök.
 🔪|schneiden|vágni|Ich schneide die Zwiebel.|Felvágom a hagymát.
@@ -50,6 +314,94 @@ cooking|🍳|Főzés|Alapanyagok és konyhai igék
 🧂|das Salz|só|Die Suppe braucht etwas Salz.|A levesbe kell egy kis só.
 🥔|die Kartoffel|burgonya|Die Kartoffel ist noch heiß.|A burgonya még forró.
 📖|das Rezept|recept|Das Rezept ist einfach.|A recept egyszerű.
+🧺|die Zutat|hozzávaló|Alle Zutaten stehen im Rezept.|Minden hozzávaló szerepel a receptben.
+🥦|das Gemüse|zöldség|Das Gemüse ist frisch.|A zöldség friss.
+🍎|das Obst|gyümölcs|Ich esse gern frisches Obst.|Szívesen eszem friss gyümölcsöt.
+🥩|das Fleisch|hús|Das Fleisch liegt im Kühlschrank.|A hús a hűtőszekrényben van.
+🐟|der Fisch|hal|Heute gibt es Fisch mit Reis.|Ma hal lesz rizzsel.
+🍗|das Hähnchen|csirke|Das Hähnchen ist im Ofen.|A csirke a sütőben van.
+🥩|das Rindfleisch|marhahús|Für die Suppe nehme ich Rindfleisch.|A leveshez marhahúst használok.
+🐖|das Schweinefleisch|sertéshús|Das Gericht enthält Schweinefleisch.|Az étel sertéshúst tartalmaz.
+🥚|das Ei|tojás|Für den Teig brauche ich ein Ei.|A tésztához egy tojásra van szükségem.
+🥛|die Milch|tej|Die Milch ist im Kühlschrank.|A tej a hűtőszekrényben van.
+🧈|die Butter|vaj|Die Butter ist weich.|A vaj puha.
+🫒|das Öl|olaj|Ich gebe etwas Öl in die Pfanne.|Egy kis olajat teszek a serpenyőbe.
+🌾|das Mehl|liszt|Wir brauchen zweihundert Gramm Mehl.|Kétszáz gramm lisztre van szükségünk.
+🍬|der Zucker|cukor|In den Kuchen kommt Zucker.|A süteménybe cukor kerül.
+🌶️|der Pfeffer|bors|Ich würze die Suppe mit Pfeffer.|Borssal ízesítem a levest.
+🧄|der Knoblauch|fokhagyma|Der Knoblauch riecht stark.|A fokhagymának erős illata van.
+🍅|die Tomate|paradicsom|Die Tomate ist reif.|A paradicsom érett.
+🥒|die Gurke|uborka|Ich schneide die Gurke in Scheiben.|Karikákra vágom az uborkát.
+🥕|die Karotte|sárgarépa|Die Karotte kommt in die Suppe.|A sárgarépa a levesbe kerül.
+🫑|die Paprikaschote|étkezési paprika|Die Paprikaschote ist rot.|Az étkezési paprika piros.
+🍄|der Pilz|gomba|Ich schneide den Pilz klein.|Apróra vágom a gombát.
+🍚|der Reis|rizs|Der Reis ist fertig.|A rizs elkészült.
+🍝|die Nudel|tésztaféle|Die Nudeln sind noch warm.|A tészta még meleg.
+🍞|das Brot|kenyér|Das Brot ist frisch gebacken.|A kenyér frissen sült.
+🧀|der Käse|sajt|Ich reibe den Käse.|Lereszelem a sajtot.
+🥛|die Sahne|tejszín|Die Soße enthält Sahne.|A szósz tejszínt tartalmaz.
+🥣|der Joghurt|joghurt|Der Joghurt ist ohne Zucker.|A joghurt cukormentes.
+💧|das Wasser|víz|Das Wasser kocht.|A víz forr.
+🍲|die Brühe|alaplé|Ich gebe Brühe zum Gemüse.|Alaplevet adok a zöldséghez.
+🥣|die Soße|szósz|Die Soße ist cremig.|A szósz krémes.
+🍶|der Essig|ecet|In den Salat kommt etwas Essig.|A salátába egy kis ecet kerül.
+🍋|die Zitrone|citrom|Ich brauche den Saft einer Zitrone.|Egy citrom levére van szükségem.
+🌿|die Petersilie|petrezselyem|Die Petersilie ist frisch.|A petrezselyem friss.
+🌱|das Basilikum|bazsalikom|Das Basilikum passt zu Tomaten.|A bazsalikom illik a paradicsomhoz.
+🪵|der Zimt|fahéj|Der Kuchen duftet nach Zimt.|A sütemény fahéjillatú.
+🍯|der Honig|méz|Ich süße den Tee mit Honig.|Mézzel édesítem a teát.
+🍞|die Hefe|élesztő|Der Teig enthält Hefe.|A tészta élesztőt tartalmaz.
+🥣|der Teig|nyers tészta|Der Teig ist noch klebrig.|A nyers tészta még ragacsos.
+🥗|der Salat|saláta|Der Salat ist eine Beilage.|A saláta köret.
+🫘|die Bohne|bab|Die Bohnen sind schon gekocht.|A bab már megfőtt.
+🟢|die Erbse|borsó|Die Erbsen kommen in die Suppe.|A borsó a levesbe kerül.
+🥬|der Spinat|spenót|Der Spinat ist frisch.|A spenót friss.
+🥬|der Kohl|káposzta|Ich schneide den Kohl fein.|Vékonyra vágom a káposztát.
+🍎|der Apfel|alma|Der Apfel schmeckt süß.|Az alma édes ízű.
+🍌|die Banane|banán|Die Banane ist reif.|A banán érett.
+🫐|die Beere|bogyós gyümölcs|Die Beeren kommen in den Joghurt.|A bogyós gyümölcsök a joghurtba kerülnek.
+🥒|die Zucchini|cukkini|Die Zucchini ist klein.|A cukkini kicsi.
+🎃|der Kürbis|tök|Aus dem Kürbis mache ich Suppe.|A tökből levest készítek.
+🫘|die Linse|lencse|Die Linsen sind weich.|A lencse puha.
+🪵|das Schneidebrett|vágódeszka|Das Schneidebrett ist aus Holz.|A vágódeszka fából van.
+🥄|der Löffel|kanál|Ich rühre mit einem Löffel.|Egy kanállal keverek.
+🍴|die Gabel|villa|Die Gabel liegt neben dem Teller.|A villa a tányér mellett van.
+🥣|die Schüssel|tál|Der Teig ist in der Schüssel.|A tészta a tálban van.
+🕸️|das Sieb|szűrő|Das Sieb steht in der Spüle.|A szűrő a mosogatóban áll.
+⚖️|die Waage|mérleg|Die Waage zeigt hundert Gramm.|A mérleg száz grammot mutat.
+🔥|der Ofen|sütő|Der Kuchen ist im Ofen.|A sütemény a sütőben van.
+🍳|der Herd|tűzhely|Der Topf steht auf dem Herd.|A fazék a tűzhelyen van.
+⬛|das Backblech|tepsi|Das Backblech ist rechteckig.|A tepsi téglalap alakú.
+📃|das Backpapier|sütőpapír|Das Backpapier liegt auf dem Blech.|A sütőpapír a tepsin van.
+🛑|der Deckel|fedő|Der Deckel passt auf den Topf.|A fedő illik a fazékra.
+🥄|der Schneebesen|habverő|Ich verrühre die Eier mit dem Schneebesen.|Habverővel elkeverem a tojásokat.
+🧀|die Reibe|reszelő|Die Reibe ist aus Metall.|A reszelő fémből van.
+🥄|die Schöpfkelle|merőkanál|Die Schöpfkelle liegt neben dem Topf.|A merőkanál a fazék mellett van.
+🥛|der Messbecher|mérőpohár|Der Messbecher fasst einen Liter.|A mérőpohár egy literes.
+🧊|der Kühlschrank|hűtőszekrény|Die Milch steht im Kühlschrank.|A tej a hűtőszekrényben van.
+❄️|der Gefrierschrank|fagyasztószekrény|Die Erbsen sind im Gefrierschrank.|A borsó a fagyasztószekrényben van.
+🥔|schälen|hámozni|Ich schäle die Kartoffeln.|Meghámozom a burgonyát.
+🚿|waschen|megmosni|Ich wasche das Gemüse.|Megmosom a zöldséget.
+🔪|hacken|aprítani|Ich hacke die Petersilie.|Felaprítom a petrezselymet.
+🤲|kneten|gyúrni|Wir kneten den Teig.|Meggyúrjuk a tésztát.
+🥣|mischen|összekeverni|Ich mische Mehl und Zucker.|Összekeverem a lisztet és a cukrot.
+🧂|würzen|fűszerezni|Ich würze das Gemüse.|Megfűszerezem a zöldséget.
+👅|abschmecken|ízesítés közben megkóstolni|Ich schmecke die Soße ab.|Megkóstolom a szószt, hogy jó-e az ízesítése.
+🔥|erhitzen|felmelegíteni|Ich erhitze die Suppe.|Felmelegítem a levest.
+❄️|kühlen|hűteni|Wir kühlen das Getränk.|Lehűtjük az italt.
+🧊|einfrieren|lefagyasztani|Ich friere eine Portion Suppe ein.|Lefagyasztok egy adag levest.
+💧|auftauen|kiolvasztani|Ich taue das Brot auf.|Kiolvasztom a kenyeret.
+🍝|abgießen|leönteni a főzővizet|Ich gieße die Nudeln ab.|Leöntöm a tésztáról a főzővizet.
+🍽️|servieren|tálalni|Wir servieren das Essen um sechs.|Hatkor tálaljuk az ételt.
+⚖️|wiegen|lemérni a súlyt|Ich wiege das Mehl.|Lemérem a lisztet.
+♨️|dämpfen|gőzölni / gőzben párolni|Ich dämpfe das Gemüse.|Gőzben párolom a zöldséget.
+🥩|roh|nyers|Die Karotte ist roh.|A sárgarépa nyers.
+✅|gar|átsült / megfőtt|Die Kartoffeln sind gar.|A burgonya megfőtt.
+🍬|süß|édes|Der Kuchen ist süß.|A sütemény édes.
+🧂|salzig|sós|Die Suppe ist zu salzig.|A leves túl sós.
+🌶️|scharf|csípős|Die Soße ist scharf.|A szósz csípős.
+🍋|sauer|savanyú|Die Zitrone schmeckt sauer.|A citrom savanyú ízű.
+☕|bitter|keserű|Der Kaffee schmeckt bitter.|A kávé keserű ízű.
 ordering|☕|Rendelés|Étterem, kávézó és fizetés
 📋|die Speisekarte|étlap|Die Speisekarte, bitte.|Az étlapot kérem.
 🛎️|bestellen|rendelni|Ich möchte bitte bestellen.|Szeretnék rendelni.
@@ -63,3 +415,91 @@ ordering|☕|Rendelés|Étterem, kávézó és fizetés
 🪙|das Trinkgeld|borravaló|Das Trinkgeld ist für Sie.|A borravaló az Öné.
 🛍️|zum Mitnehmen|elvitelre|Einen Kaffee zum Mitnehmen, bitte.|Egy kávét kérek elvitelre.
 😋|lecker|finom|Das Essen ist sehr lecker.|Az étel nagyon finom.
+🍽️|das Restaurant|étterem|Ist das Restaurant heute geöffnet?|Nyitva van ma az étterem?
+☕|das Café|kávézó|Das Café ist um die Ecke.|A kávézó a sarkon van.
+🥐|die Bäckerei|pékség|Wo ist die nächste Bäckerei?|Hol van a legközelebbi pékség?
+🌭|der Imbiss|büfé / falatozó|Wir essen heute im Imbiss.|Ma a büfében eszünk.
+🤵|der Kellner|pincér|Der Kellner bringt die Speisekarte.|A pincér hozza az étlapot.
+👩‍🍳|die Kellnerin|pincérnő|Die Kellnerin nimmt die Bestellung auf.|A pincérnő felveszi a rendelést.
+🧑|der Gast|vendég|Der Gast möchte bezahlen.|A vendég fizetni szeretne.
+🪑|der Tisch|asztal|Einen Tisch für zwei, bitte.|Egy kétszemélyes asztalt kérek.
+💺|der Platz|ülőhely|Ist dieser Platz noch frei?|Szabad még ez az ülőhely?
+📅|die Reservierung|foglalás|Ich habe eine Reservierung auf den Namen Kiss.|Van egy foglalásom Kiss névre.
+🍳|das Frühstück|reggeli|Bis wann gibt es Frühstück?|Meddig van reggeli?
+🥘|das Mittagessen|ebéd|Wir kommen zum Mittagessen.|Ebédre jövünk.
+🍽️|das Abendessen|vacsora|Das Abendessen war sehr gut.|A vacsora nagyon jó volt.
+🥗|die Vorspeise|előétel|Als Vorspeise nehme ich einen Salat.|Előételnek salátát kérek.
+🍛|das Hauptgericht|főétel|Welches Hauptgericht empfehlen Sie?|Melyik főételt ajánlja?
+🍰|die Nachspeise|desszert|Ich möchte noch eine Nachspeise.|Szeretnék még egy desszertet.
+🍚|die Beilage|köret|Welche Beilage ist dabei?|Milyen köret jár hozzá?
+📋|das Tagesgericht|napi ajánlat|Was ist heute das Tagesgericht?|Mi ma a napi ajánlat?
+🍱|das Menü|menüsor / menüajánlat|Ist ein Getränk im Menü enthalten?|Tartalmaz a menüajánlat italt?
+🥗|das Buffet|svédasztal|Das Buffet ist bis zehn Uhr geöffnet.|A svédasztal tíz óráig áll rendelkezésre.
+🍽️|die Portion|adag|Eine kleine Portion, bitte.|Egy kis adagot kérek.
+🥤|das Getränk|ital|Welche Getränke haben Sie?|Milyen italaik vannak?
+🧃|der Saft|gyümölcslé|Ein Glas Saft, bitte.|Egy pohár gyümölcslevet kérek.
+🍎|der Apfelsaft|almalé|Ich hätte gern einen Apfelsaft.|Szeretnék egy almalevet.
+🍊|der Orangensaft|narancslé|Ist der Orangensaft frisch gepresst?|Frissen facsart a narancslé?
+🥤|die Limonade|üdítő / limonádé|Eine Limonade ohne Eis, bitte.|Egy üdítőt kérek jég nélkül.
+🍺|das Bier|sör|Ein kleines Bier, bitte.|Egy kis sört kérek.
+🍷|der Wein|bor|Haben Sie Wein im Glas?|Lehet pohár bort kérni?
+🍷|der Rotwein|vörösbor|Ein Glas Rotwein, bitte.|Egy pohár vörösbort kérek.
+🥂|der Weißwein|fehérbor|Ich nehme einen trockenen Weißwein.|Egy száraz fehérbort kérek.
+🥛|die Milch|tej|Mit etwas Milch, bitte.|Egy kis tejjel kérem.
+☕|der Kakao|kakaó|Einen heißen Kakao, bitte.|Egy forró kakaót kérek.
+☕|der Espresso|eszpresszó|Einen doppelten Espresso, bitte.|Egy dupla eszpresszót kérek.
+☕|der Cappuccino|kapucsínó|Zwei Cappuccinos, bitte.|Két kapucsínót kérek.
+🧊|der Eiswürfel|jégkocka|Bitte ohne Eiswürfel.|Jégkocka nélkül kérem.
+🍾|die Flasche|palack|Eine Flasche Wasser für den Tisch, bitte.|Egy palack vizet kérek az asztalhoz.
+🥛|das Glas|pohár|Kann ich noch ein Glas bekommen?|Kaphatok még egy poharat?
+☕|die Tasse|csésze|Eine Tasse Tee, bitte.|Egy csésze teát kérek.
+🍽️|der Teller|tányér|Könnten wir einen zweiten Teller bekommen?|Kaphatnánk egy második tányért?
+🍴|das Besteck|evőeszköz|Ich brauche noch Besteck.|Szükségem van még evőeszközre.
+🧻|die Serviette|szalvéta|Eine Serviette, bitte.|Egy szalvétát kérek.
+🥤|der Strohhalm|szívószál|Ich brauche keinen Strohhalm.|Nincs szükségem szívószálra.
+🍞|das Brot|kenyér|Könnten wir noch etwas Brot bekommen?|Kaphatnánk még egy kis kenyeret?
+🥯|das Brötchen|zsemle|Zwei Brötchen, bitte.|Két zsemlét kérek.
+🧈|die Butter|vaj|Ist Butter dabei?|Jár hozzá vaj?
+🧀|der Käse|sajt|Bitte ohne Käse.|Sajt nélkül kérem.
+🥗|der Salat|saláta|Einen gemischten Salat, bitte.|Egy vegyes salátát kérek.
+🍕|die Pizza|pizza|Ich möchte eine Pizza mit Pilzen.|Egy gombás pizzát szeretnék.
+🍝|die Nudeln|főtt tészta / tésztaétel|Ich nehme die Nudeln mit Tomatensoße.|A paradicsomszószos tésztát kérem.
+🍚|der Reis|rizs|Kann ich Reis als Beilage haben?|Kérhetek rizst köretnek?
+🥔|die Kartoffeln|burgonya|Sind die Kartoffeln gekocht oder gebraten?|Főtt vagy sült a burgonya?
+🍟|die Pommes frites|hasábburgonya|Eine Portion Pommes frites, bitte.|Egy adag hasábburgonyát kérek.
+🥩|das Fleisch|hús|Welches Fleisch ist in diesem Gericht?|Milyen hús van ebben az ételben?
+🐟|der Fisch|hal|Welchen Fisch haben Sie heute?|Milyen haluk van ma?
+🍗|das Hähnchen|csirke|Ich nehme das Hähnchen mit Reis.|A rizses csirkét kérem.
+🍰|der Kuchen|sütemény|Ein Stück Kuchen, bitte.|Egy szelet süteményt kérek.
+🍨|das Eis|fagylalt|Zwei Kugeln Eis, bitte.|Két gombóc fagylaltot kérek.
+🍎|das Obst|gyümölcs|Gibt es frisches Obst zum Frühstück?|Van friss gyümölcs a reggelihez?
+🍬|der Zucker|cukor|Bitte keinen Zucker in den Kaffee.|Kérem, ne tegyen cukrot a kávéba.
+🧂|das Salz|só|Könnten Sie mir das Salz bringen?|Idehozná nekem a sót?
+🌶️|der Pfeffer|bors|Etwas Pfeffer, bitte.|Egy kis borsot kérek.
+🟡|der Senf|mustár|Mit Senf, bitte.|Mustárral kérem.
+🍅|der Ketchup|ketchup|Kann ich etwas Ketchup bekommen?|Kaphatok egy kis ketchupot?
+🥣|die Mayonnaise|majonéz|Die Mayonnaise bitte extra.|A majonézt külön kérem.
+⚠️|die Allergie|allergia|Ich habe eine Allergie gegen Nüsse.|Allergiás vagyok a diófélékre.
+📋|das Allergen|allergén|Wo finde ich die Liste der Allergene?|Hol találom az allergének listáját?
+🌾|das Gluten|glutén|Enthält dieses Gericht Gluten?|Tartalmaz ez az étel glutént?
+🥛|die Laktose|laktóz / tejcukor|Ist in dieser Soße Laktose enthalten?|Tartalmaz ez a szósz laktózt?
+🥜|die Nuss|dióféle|Enthält der Kuchen Nüsse?|Tartalmaz a sütemény dióféléket?
+🌱|vegan|vegán|Haben Sie ein veganes Gericht?|Van vegán ételük?
+🌾|glutenfrei|gluténmentes|Ist dieses Brot glutenfrei?|Gluténmentes ez a kenyér?
+🥛|laktosefrei|laktózmentes|Haben Sie laktosefreie Milch?|Van laktózmentes tejük?
+🚫|alkoholfrei|alkoholmentes|Ein alkoholfreies Bier, bitte.|Egy alkoholmentes sört kérek.
+💧|still|szénsavmentes|Ein stilles Mineralwasser, bitte.|Egy szénsavmentes ásványvizet kérek.
+🫧|mit Kohlensäure|szénsavas|Wasser mit Kohlensäure, bitte.|Szénsavas vizet kérek.
+➖|ohne|nélkül|Den Salat ohne Zwiebeln, bitte.|A salátát hagyma nélkül kérem.
+➕|mit|valamivel együtt|Einen Tee mit Zitrone, bitte.|Egy citromos teát kérek.
+♨️|heiß|forró|Ist die Suppe noch heiß?|Forró még a leves?
+❄️|kalt|hideg|Das Essen ist leider kalt.|Az étel sajnos hideg.
+🏷️|der Preis|ár|Ist der Preis pro Person?|Az ár személyenként értendő?
+💶|das Bargeld|készpénz|Ich habe kein Bargeld dabei.|Nincs nálam készpénz.
+💳|die Karte|bankkártya|Kann ich mit Karte zahlen?|Fizethetek bankkártyával?
+🧾|die Quittung|nyugta|Eine Quittung, bitte.|Egy nyugtát kérek.
+↔️|getrennt|külön fizetve|Wir möchten getrennt bezahlen.|Külön szeretnénk fizetni.
+👥|zusammen|együtt fizetve|Wir bezahlen zusammen.|Együtt fizetünk.
+📅|reservieren|asztalt foglalni|Ich möchte einen Tisch reservieren.|Szeretnék asztalt foglalni.
+👍|empfehlen|ajánlani|Was können Sie empfehlen?|Mit tud ajánlani?
+⏳|warten|várni|Wie lange müssen wir warten?|Mennyi ideig kell várnunk?

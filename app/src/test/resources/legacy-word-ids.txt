@@ -1,0 +1,60 @@
+swe-0|der Computer|számítógép
+swe-1|die Tastatur|billentyűzet
+swe-2|die Maus|egér
+swe-3|der Bildschirm|képernyő
+swe-4|die Datei|fájl
+swe-5|der Fehler|hiba
+swe-6|der Quellcode|forráskód
+swe-7|die Datenbank|adatbázis
+swe-8|die Funktion|függvény
+swe-9|testen|tesztelni
+swe-10|speichern|menteni
+swe-11|die Schnittstelle|interfész
+welding-0|schweißen|hegeszteni
+welding-1|der Schweißer|hegesztő (szakember)
+welding-2|das Schweißgerät|hegesztőgép
+welding-3|der Schweißhelm|hegesztőpajzs
+welding-4|der Handschuh|kesztyű
+welding-5|das Metall|fém
+welding-6|der Stahl|acél
+welding-7|die Schweißnaht|hegesztési varrat
+welding-8|der Schweißdraht|hegesztőhuzal
+welding-9|die Elektrode|elektróda
+welding-10|das Werkstück|munkadarab
+welding-11|die Werkstatt|műhely
+electro-0|der Strom|áram
+electro-1|die Spannung|feszültség
+electro-2|der Widerstand|ellenállás
+electro-3|das Kabel|kábel
+electro-4|der Stecker|csatlakozódugó
+electro-5|die Steckdose|konnektor
+electro-6|der Schalter|kapcsoló
+electro-7|die Sicherung|biztosíték
+electro-8|die Batterie|elem / akkumulátor
+electro-9|der Stromkreis|áramkör
+electro-10|das Multimeter|multiméter
+electro-11|die Leuchtdiode|fénykibocsátó dióda (LED)
+cooking-0|kochen|főzni
+cooking-1|schneiden|vágni
+cooking-2|rühren|keverni
+cooking-3|backen|sütni (sütőben)
+cooking-4|braten|sütni (serpenyőben)
+cooking-5|der Topf|fazék
+cooking-6|die Pfanne|serpenyő
+cooking-7|das Messer|kés
+cooking-8|die Zwiebel|hagyma
+cooking-9|das Salz|só
+cooking-10|die Kartoffel|burgonya
+cooking-11|das Rezept|recept
+ordering-0|die Speisekarte|étlap
+ordering-1|bestellen|rendelni
+ordering-2|das Wasser|víz
+ordering-3|der Kaffee|kávé
+ordering-4|der Tee|tea
+ordering-5|die Suppe|leves
+ordering-6|vegetarisch|vegetáriánus
+ordering-7|die Rechnung|számla
+ordering-8|bezahlen|fizetni
+ordering-9|das Trinkgeld|borravaló
+ordering-10|zum Mitnehmen|elvitelre
+ordering-11|lecker|finom

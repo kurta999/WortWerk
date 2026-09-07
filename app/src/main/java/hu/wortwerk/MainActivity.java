@@ -99,12 +99,38 @@ public class MainActivity extends Activity {
         else if(screen.equals("learn")) learn();
         else practice();
     }
+    private int totalWords() {
+        int total=0;
+        for(Vocabulary.Category c:categories) total+=c.words.size();
+        return total;
+    }
+    private Set<String> practiced(Vocabulary.Category c) {
+        Set<String> result=new HashSet<>(prefs.getStringSet("practiced-"+c.id,Collections.emptySet()));
+        Set<String> valid=new HashSet<>();
+        for(Vocabulary.Word w:c.words) valid.add(w.id);
+        result.retainAll(valid);
+        return result;
+    }
+    private void chooseWord() {
+        Vocabulary.Category c=category();
+        String[] labels=new String[c.words.size()];
+        for(int i=0;i<labels.length;i++) {
+            Vocabulary.Word w=c.words.get(i);
+            labels[i]=(i+1)+". "+w.german+" — "+w.hungarian;
+        }
+        new android.app.AlertDialog.Builder(this)
+            .setTitle("Válassz szót · "+c.words.size())
+            .setSingleChoiceItems(labels,wordIndex,(dialog,index)->{
+                wordIndex=index;dialog.dismiss();render();
+            })
+            .setNegativeButton("Mégse",null).show();
+    }
     private void home() {
         body.addView(text("WORTWERK  /  HU → DE",13,GREEN,true));
         body.addView(text("Egy szóval közelebb.",32,INK,true));
         body.addView(text("Német a munkához és a mindennapokhoz.",16,MUTED,false));
         LinearLayout summary=panel();
-        summary.addView(text("🌱  "+learned.size()+" / 60 szó megtanulva",21,GREEN,true));
+        summary.addView(text("🌱  "+learned.size()+" / "+totalWords()+" szó megtanulva",21,GREEN,true));
         summary.addView(text("Válassz témát. Tanulj szavakat. Párosíts!",15,MUTED,false));
         for(Vocabulary.Category c:categories) {
             LinearLayout card=panel();
@@ -112,6 +138,7 @@ public class MainActivity extends Activity {
             card.addView(text(c.subtitle,15,MUTED,false));
             int count=0; for(Vocabulary.Word w:c.words)if(learned.contains(w.id))count++;
             card.addView(text(count+" / "+c.words.size()+" megtanulva"+(prefs.contains("best-"+c.id)?"  ·  Legjobb: "+prefs.getInt("best-"+c.id,0)+"%":""),14,GREEN,true));
+            card.addView(text("Gyakorolt szavak: "+practiced(c).size()+" / "+c.words.size(),14,MUTED,false));
             ProgressBar progress=new ProgressBar(this,null,android.R.attr.progressBarStyleHorizontal);
             progress.setMax(c.words.size());progress.setProgress(count);
             progress.setProgressTintList(android.content.res.ColorStateList.valueOf(GREEN));card.addView(progress);
@@ -133,6 +160,7 @@ public class MainActivity extends Activity {
         Vocabulary.Word w=c.words.get(wordIndex);
         body.addView(text(c.icon+"  "+c.title,25,INK,true));
         body.addView(text("SZÓKÁRTYÁK  ·  "+(wordIndex+1)+" / "+c.words.size(),13,MUTED,true));
+        body.addView(button("Szó választása · "+c.words.size()+" szó",false,()->chooseWord()));
         LinearLayout card=panel();
         TextView icon=text(w.icon,64,INK,false); icon.setGravity(Gravity.CENTER); icon.setImportantForAccessibility(View.IMPORTANT_FOR_ACCESSIBILITY_NO); card.addView(icon);
         card.addView(text(w.german,30,INK,true));
@@ -156,8 +184,12 @@ public class MainActivity extends Activity {
     private void startRound() {
         List<String> ids=new ArrayList<>();
         for(Vocabulary.Word w:category().words)ids.add(w.id);
-        Collections.shuffle(ids,random);
-        round=new MatchingRound(ids.subList(0,Math.min(5,ids.size())),random);
+        Set<String> completed=practiced(category());
+        if(completed.containsAll(ids)) {
+            completed.clear();
+            prefs.edit().remove("practiced-"+categoryId).apply();
+        }
+        round=new MatchingRound(PracticeDeck.next(ids,completed,random),random);
         feedback="";screen="practice";render();
     }
     private void practice() {
@@ -169,15 +201,22 @@ public class MainActivity extends Activity {
         if(round.complete()) {
             int score=round.accuracy();
             int best=Math.max(score,prefs.getInt("best-"+categoryId,0));
-            prefs.edit().putInt("best-"+categoryId,best).apply();
+            Set<String> completed=practiced(category());
+            completed.addAll(round.left);
+            prefs.edit().putInt("best-"+categoryId,best)
+                .putStringSet("practiced-"+categoryId,new HashSet<>(completed)).apply();
             LinearLayout result=panel();
             result.addView(text("🎉  Szép munka!",30,INK,true));
             result.addView(text(score+"% pontosság",26,GREEN,true));
             result.addView(text(round.left.size()+" pár, "+round.attempts+" próbálkozás.\nLegjobb eredmény ebben a témában: "+best+"%",17,MUTED,false));
-            result.addView(button("Új kör",true,()->startRound()));
+            result.addView(text("Gyakorolt szavak: "+completed.size()+" / "+category().words.size(),18,GREEN,true));
+            boolean fullCycle=completed.size()==category().words.size();
+            if(fullCycle) result.addView(text("A kategória minden szavát gyakoroltad!",17,INK,true));
+            result.addView(button(fullCycle?"Új sorozat indítása":"Következő 5 szó",true,()->startRound()));
             result.addView(button("Szavak ismétlése",false,()->{screen="learn";wordIndex=0;render();}));
             return;
         }
+        body.addView(text("Ebben a sorozatban: "+practiced(category()).size()+" / "+category().words.size()+" szó kész",14,MUTED,false));
         TextView status=text(feedback.isEmpty()?"Kezdd egy magyar szóval.":feedback,16,INK,true);
         status.setAccessibilityLiveRegion(View.ACCESSIBILITY_LIVE_REGION_POLITE);body.addView(status);
         LinearLayout columns=new LinearLayout(this); columns.setOrientation(LinearLayout.HORIZONTAL);

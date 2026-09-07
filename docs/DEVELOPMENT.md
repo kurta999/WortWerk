@@ -9,8 +9,9 @@ Native Java with Android framework views, minSdk 26, targetSdk 36, compile SDK 3
 | `app/src/main/java/hu/wortwerk/MainActivity.java` | Screens, navigation, TTS and local preferences |
 | `app/src/main/java/hu/wortwerk/Vocabulary.java` | Vocabulary loader |
 | `app/src/main/java/hu/wortwerk/MatchingRound.java` | Matching and scoring state |
+| `app/src/main/java/hu/wortwerk/PracticeDeck.java` | Select unseen words for each practice round |
 | `app/src/main/assets/vocabulary.txt` | Bilingual content |
-| `app/src/test/java/hu/wortwerk/LearningTest.java` | Seven data/behavior tests |
+| `app/src/test/java/hu/wortwerk/LearningTest.java` | Twelve data/behavior tests |
 | `.github/workflows/android.yml` | CI and automatic prerelease delivery |
 | `docs/screenshots/` | Actual emulator screenshots |
 
@@ -23,7 +24,7 @@ category-id|icon|Hungarian category name|Hungarian description
 icon|German word|Hungarian meaning|German sample sentence|Hungarian sample sentence
 ```
 
-Each category currently contains twelve words. Word IDs use the category ID and entry index; append words instead of reordering existing ones to preserve saved learning progress. If changing the number of entries, update the fixed home-screen total and the content-count assertions in the tests. Avoid pipe characters inside fields.
+Each category currently contains 100 words. Word IDs use the category ID and entry index; append words instead of reordering existing ones to preserve saved learning progress. The home-screen total is calculated from the vocabulary. If changing the number of entries, update the content-count assertions in the tests. Avoid pipe characters inside fields.
 
 Use a noun's article in the German field. Keep Hungarian meanings unique within a category so matching exercises remain unambiguous.
 
@@ -33,7 +34,7 @@ Use a noun's article in the German field. Keep Hungarian meanings unique within 
 bash ./gradlew :app:testDebugUnitTest :app:lintDebug
 ```
 
-Tests cover missing selections, wrong answers, duplicate matches, scoring, shuffled column integrity, vocabulary completeness and malformed data.
+Tests cover missing selections, wrong answers, duplicate matches, scoring, shuffled column integrity, 500-entry vocabulary completeness, malformed data, all-category practice coverage, resumed and restarted practice cycles, short remainders and legacy word IDs.
 
 Manual device checklist:
 - Browse all categories and sample sentences.
@@ -58,7 +59,7 @@ The script does not run JUnit or lint. Standard Gradle builds and CI are the pri
 
 ## Screenshots
 
-Images were captured at 1080 × 2400 on the `medium_phone` Android 16 emulator. They are unmodified app screenshots; they are not Xiaomi HyperOS screenshots. The results image was captured after completing a real matching round.
+Version 1.1.0 images were captured at 1080 × 2400 on the `medium_phone` Android 16 emulator. They are unmodified app screenshots; they are not Xiaomi HyperOS screenshots. The results image was captured after completing a real matching round.
 
 To replace a screenshot, navigate to the intended app screen, then:
 
@@ -72,3 +73,5 @@ Review images before committing, particularly for personal notifications. The sc
 ## Prerelease automation tests
 
 Run `bash scripts/test-prerelease.sh` to check default-branch and version-tag releases, draft recovery, existing published releases, missing APKs and upload failure handling. These six tests mock GitHub CLI and make no network requests. They also run in CI before the Android build.
+
+Vocabulary spot checks: [Basilikum article](https://www.duden.de/rechtschreibung/Basilikum), [Niet article](https://www.duden.de/rechtschreibung/Niet), and [Fronius welding terminology](https://blog.fronius.com/welding/welding-knowhow/welcher-wig-brenner-wofur/). Examples and Hungarian translations were written for this app.
