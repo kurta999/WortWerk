@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.1
+
+- Added an About dialog with author kurta999 and a button to open the GitHub repository.
+- Added author and repository links to the README.
+
 ## 1.1.0
 
 - Expanded from 60 to 500 vocabulary entries: 100 each for software engineering, welding, electrical engineering, cooking and ordering.

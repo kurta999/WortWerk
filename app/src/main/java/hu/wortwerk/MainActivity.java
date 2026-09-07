@@ -125,10 +125,26 @@ public class MainActivity extends Activity {
             })
             .setNegativeButton("Mégse",null).show();
     }
+    private void showAbout() {
+        new android.app.AlertDialog.Builder(this)
+            .setTitle("Névjegy · WortWerk")
+            .setMessage("Német szókincs magyarul.\n\nKészítette: kurta999\n\nGitHub:\nhttps://github.com/kurta999/WortWerk")
+            .setPositiveButton("GitHub megnyitása",(dialog,which)->{
+                try {
+                    startActivity(new android.content.Intent(android.content.Intent.ACTION_VIEW,
+                        android.net.Uri.parse("https://github.com/kurta999/WortWerk")));
+                } catch(android.content.ActivityNotFoundException e) {
+                    Toast.makeText(this,"Nem található böngésző a hivatkozás megnyitásához.",Toast.LENGTH_LONG).show();
+                }
+            })
+            .setNegativeButton("Bezárás",null)
+            .show();
+    }
     private void home() {
         body.addView(text("WORTWERK  /  HU → DE",13,GREEN,true));
         body.addView(text("Egy szóval közelebb.",32,INK,true));
         body.addView(text("Német a munkához és a mindennapokhoz.",16,MUTED,false));
+        body.addView(button("Névjegy · kurta999",false,()->showAbout()));
         LinearLayout summary=panel();
         summary.addView(text("🌱  "+learned.size()+" / "+totalWords()+" szó megtanulva",21,GREEN,true));
         summary.addView(text("Válassz témát. Tanulj szavakat. Párosíts!",15,MUTED,false));

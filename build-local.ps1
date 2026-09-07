@@ -17,7 +17,7 @@ foreach ($folder in @($buildRoot,"$buildRoot/main-classes","$buildRoot/dex")) {
 }
 # The direct SDK build is a fallback for hosts where Gradle's daemon cannot connect.
 $manifest = [System.IO.File]::ReadAllText("$projectRoot/app/src/main/AndroidManifest.xml")
-$manifest = $manifest.Replace('<manifest ', '<manifest package="hu.wortwerk" android:versionCode="2" android:versionName="1.1.0" ')
+$manifest = $manifest.Replace('<manifest ', '<manifest package="hu.wortwerk" android:versionCode="3" android:versionName="1.1.1" ')
 $manifest = $manifest.Replace('<application ', '<uses-sdk android:minSdkVersion="26" android:targetSdkVersion="36"/><application android:debuggable="true" ')
 [System.IO.File]::WriteAllText("$buildRoot/AndroidManifest.xml",$manifest)
 Run-Tool "$bt/aapt2.exe" @('compile','--dir',"$projectRoot/app/src/main/res",'-o',"$buildRoot/resources.zip")

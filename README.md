@@ -95,6 +95,14 @@ See [GitHub setup and releases](docs/GITHUB.md) for the first push and version-t
 - The GitHub workflow has not run yet; it will run after you push.
 - Xiaomi 15T Pro hardware, HyperOS-specific behavior, speech and rotation have not been separately verified.
 
+## About
+
+Created by **[kurta999](https://github.com/kurta999)**.
+
+Source code: **[kurta999/WortWerk](https://github.com/kurta999/WortWerk)**.
+
+In the app, tap **Névjegy · kurta999** on the home screen to see the author and open the repository in your browser.
+
 ## License
 
 No license has been selected yet. Add a `LICENSE` file before offering the project for reuse.
